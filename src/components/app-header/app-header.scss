@@ -1,0 +1,38 @@
+.logo {
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;  
+    letter-spacing: 2px; 
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.header {
+    background-color: rgba(0,0,0, .5);
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 50px;
+    letter-spacing: 1px;
+    &__link {
+        display: flex;
+        margin-right: 40px;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    &__cart {
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+
+.header_m:hover {
+    color: rgba(168, 160, 160, 0.637);
+}
+
+.header_c:hover {
+    color: rgba(168, 160, 160, 0.637);
+}
